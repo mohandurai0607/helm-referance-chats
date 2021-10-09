@@ -14,7 +14,6 @@ spec:
     spec: 
       containers:
         - name: first-container
-          image: darwinwilmut/firstapp:latest
+          image: mohan0607/nodeapp:5
           ports:
-            - containerPort: 8080
-     
+            - containerPort: 8000   
